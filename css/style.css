@@ -46,6 +46,7 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 #pp{
+    text-align: justify;
     color: rgb(255, 255, 255)
 }
 
@@ -55,8 +56,14 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 
 /*LOGO*/
 #logo {
+
     width:200px;
-    border-top: 3px;
+}
+
+#contimg{
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-left: 10%;
 }
 
 a:hover {
@@ -189,7 +196,7 @@ Media Queries de CSS3
 
     #menu a#pull {
         display:block;
-        background-color:#283744;
+        background-color:rgb(200, 121, 15);
         width:100%;
         position:relative;
         text-align:left;
