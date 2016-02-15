@@ -10,10 +10,10 @@ img, video, object, embed {
 }
 
 h1 {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family:Arial, Helvetica, sans-serif;
     font-size:1.5em;
-    text-shadow:4px 4px 4px rgba(0, 0, 0, 0.42);
+    text-shadow:4px 4px 4px rgb(130, 130, 130);
     padding-top: 40px;
     padding-left: 45%;
 
@@ -64,10 +64,6 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     margin-top: 20px;
     padding-top: 40px;
     padding-left: 10%;
-}
-
-a:hover {
-    background-color: rgb(200, 121, 15)
 }
 
 /*Menu de navegacion*/
