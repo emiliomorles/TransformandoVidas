@@ -82,7 +82,7 @@ a:hover {
 #menu ul {
     padding: 0;
     height: 40px;
-    width: 600px;
+    width: 200px;
 }
 
 #menu li {
@@ -160,14 +160,14 @@ a:hover {
 /*Foter*/
 footer {
     height: 40px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     margin-top: 60px;
     color: rgb(0, 0, 0);
-    font-weight: 800;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 1.5em;
     letter-spacing: 2px;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 /******************************************************************************************************************************
