@@ -60,10 +60,8 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
     width:200px;
 }
 
-#contimg{
-    margin-top: 20px;
-    padding-top: 40px;
-    padding-left: 10%;
+#logo:hover {
+    opacity: 0.7;
 }
 
 /*Menu de navegacion*/
@@ -119,10 +117,15 @@ caso before y after. Osea, no hacer esto .clearfix: before*/
 }
 
 /*imagenes*/
+figure.container {
+    width: 283px;
+}
+
 #D-imag {
     width: 400px;
-    height: 40px;
+    height: auto;
     margin: auto;
+    margin-top: 20px;
     position: static;
     opacity: 0.7;
 }
@@ -225,13 +228,6 @@ Media Queries de CSS3
         float:left;
     }
 
-    #D-imag {
-        width: 250px;
-        height: 40px;
-        margin: auto;
-        position: static;
-    }
-
 }
 
 @media screen and (min-width: 481px) and (max-width:767px) {
@@ -273,13 +269,6 @@ Media Queries de CSS3
         width:50%;
     }
 
-    #D-imag {
-        width: 300px;
-        height: 40px;
-        margin: auto;
-        position: static;
-    }
-
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -295,13 +284,6 @@ Media Queries de CSS3
 
     #col-1, #col-2 {
         width: 44%;
-    }
-
-    #D-imag {
-        width: 350px;
-        height: 40px;
-        margin: auto;
-        position: static;
     }
 
 }
